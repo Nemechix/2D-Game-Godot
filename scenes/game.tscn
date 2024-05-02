@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b8hp3lgjjv6tp"]
+
+[ext_resource type="PackedScene" uid="uid://cgpxhh0kao36i" path="res://2D-Game-Godot/scenes/player.tscn" id="1_a4gr0"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_a4gr0")]
+position = Vector2(33, 44)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(4, 4)
